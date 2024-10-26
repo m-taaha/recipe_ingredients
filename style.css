@@ -1,0 +1,134 @@
+*,
+p {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Inter", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe_container {
+  background-color: #ffffff;
+  padding: 50px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 650px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+img {
+  width: 650px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+.recipe_description {
+  margin-bottom: 1rem;
+  line-height: 30px;
+}
+
+.prep_time {
+  background-color: hsl(330, 100%, 98%);
+  line-height: 30px;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.prep_time h3 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 1rem;
+}
+
+.ingredients {
+  padding: 20px;
+  margin-bottom: 1rem;
+  line-height: 30px;
+}
+
+.instructions {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 20px;
+  line-height: 30px;
+}
+
+.nutrition {
+  margin-top: 1rem;
+  padding: 20px;
+}
+.nutrition .nut_description {
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+  color: grey;
+}
+
+td {
+  text-align: right;
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
+}
+
+h2,
+ul li::marker,
+ol li::marker {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 30px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+@media (max-width: 375px) {
+  .recipe_container {
+    padding: 20px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p,
+  li {
+    font-size: 13px;
+  }
+}
